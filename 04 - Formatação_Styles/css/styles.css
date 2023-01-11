@@ -1,0 +1,23 @@
+h1 {
+  background-color: aqua;
+  color:coral;
+}
+p {
+  color:blue
+}
+p1 {
+  color:red
+}
+
+img {
+  width: 150px;
+}
+
+#foto {
+  width: 50%;
+}
+#titulo {
+  color: black; background-color:red;
+}
+
+
