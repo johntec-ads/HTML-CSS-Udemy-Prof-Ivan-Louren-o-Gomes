@@ -1,23 +1,47 @@
-h1 {
-  background-color: aqua;
-  color:coral;
-}
-p {
-  color:blue
-}
-p1 {
-  color:red
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-  width: 150px;
+.titulo-principal {
+  background-color: rgb(0, 204, 255);
+  color: rgb(30, 24, 22);  
 }
 
-#foto {
-  width: 50%;
+.elementos {
+  background-color: rgb(255, 255, 255);
+  font-family:Verdana,Tahoma, sans-serif;
+  font-size: 13px;
+  text-align:center;
+  
 }
-#titulo {
-  color: rgb(65, 67, 108); background-color:rgb(0, 208, 255);
+.elementos #p {
+  color:blue;
+}
+.elementos #p1 {
+  color:red;
+}
+.elementos #p2 {
+  color:darkgoldenrod;
+}
+.elementos #p3 {
+  color:darkmagenta;
+}
+.elementos #p4 {
+  color:darkgreen;
 }
 
+.img-001 p{
+  align-items: center;  
+  font-size: 22px;
+}
+.img-001 {
+  background-color: gray;
+  margin-left: auto;;
+  margin-right:auto;
+  width:50%;
+}
+.img-002 {
+  
+  margin:center;
+}
 
