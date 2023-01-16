@@ -26,22 +26,27 @@ body {
 .elementos #p3 {
   color:darkmagenta;
 }
+
 .elementos #p4 {
   color:darkgreen;
 }
 
-.img-001 p{
-  align-items: center;  
-  font-size: 22px;
+.img-001 img {  
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 30%;
 }
-.img-001 {
-  background-color: gray;
-  margin-left: auto;;
-  margin-right:auto;
-  width:50%;
+.img-002 img {
+  margin-left: 20%;
+  margin-right: 30%;
+  width: 30%;  
 }
-.img-002 {
-  
-  margin:center;
+
+.atributo-link h4{
+  margin-left: 30%;
+}
+.atributo-link img{
+  width: 30%;
+  margin-left:30% ;
 }
 
