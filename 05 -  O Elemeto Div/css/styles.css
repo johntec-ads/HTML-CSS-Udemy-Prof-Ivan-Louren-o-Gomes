@@ -1,4 +1,7 @@
+
+
 body {
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,7 +14,7 @@ body {
   background-color: rgb(255, 255, 255);
   font-family:Verdana,Tahoma, sans-serif;
   font-size: 13px;
-  text-align:center;
+  text-align:left;
   
 }
 .elementos #p {
@@ -32,14 +35,24 @@ body {
 }
 
 .img-001 img {  
+  position:;
   width: 30%;
-  margin-left: 10%;
-  margin-right: 30%;
+  margin: auto;
 }
-.img-002 img {
-  margin-left: 20%;
-  margin-right: 30%;
+
+figcaption{
+  font-size: 12px;
+  color: magenta;
+  background-color:yellow;
+  width:30%;
+  margin: auto;
+  
+}
+
+.img-002 img {  
   width: 30%;  
+  margin-top: 10px;
+  margin: auto;
 }
 
 .atributo-link h4{
@@ -49,4 +62,28 @@ body {
   width: 30%;
   margin-left:30% ;
 }
+
+.texto{
+  text-align: left;  
+}
+#p2{
+  font-style: italic; 
+  color: green;  
+  line-height: 20px;
+}
+#p3{
+  color:#484848;
+  font-weight: 900;
+}
+
+.lista-ordenada li,a{
+  color: red;
+  font-size: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol{
+  
+}
+
 
