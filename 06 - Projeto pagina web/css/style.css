@@ -1,25 +1,62 @@
 
 
-.paragrafo-primeiro{
-  font-size: 30px;
+body{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.paragrafo-primeiro{/* Arte e Cultura */
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   background-color: #ff7212;
   width: 100%;
-  height: 40px;
-  margin-left: 40px;
+  height: 35px;
+ 
 }
-
-.paragrafo-segundo{
-  font-size: 30px;  
-  margin-left: 40px;
-}
-
-figcaption{
-  margin-left: 40px;
+.box1 h3{/*Arte e Cultura */
+  margin-left: 2%; 
 }
 
 
+.paragrafo-segundo{/* Título da notícia */   
+  font-size: 25px;   
+}
 
- p{
-  margin-left: 40px;
+.paragrafo-segundo p{/* Título da notícia */  
+  line-height: 30px;
+  font-size: 20px;  
+}
+
+.cabeçario figcaption{/* legenda da foto */
+  font-size: 15px;
  }
+
+.sinopsi{/* Início da matéria */
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.img img{/* Imagem da matéria */
+  width: 50%;
+ } 
+ .img figcaption{/* informe da foto */
+  font-size: 14px;
+ }
+
+ .materia p{/* Texto da matéria */
+  line-height: 30px;
+  font-size: 20px;
+ }
+ .materia iframe{
+  width: 80%;
+  height: 400px;
+  
+  
+ }
+
+ 
+
+ 
