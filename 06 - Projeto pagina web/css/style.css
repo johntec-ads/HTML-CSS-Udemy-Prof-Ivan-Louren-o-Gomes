@@ -2,7 +2,7 @@
 
 body{
   text-align: left;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-right: 10%;
   
 }
@@ -30,7 +30,7 @@ body{
   font-size: 20px;  
 }
 
-.cabeçario figcaption{/* legenda da foto */
+.cabeçario figcaption{/* fonte da matéria e data */
   font-size: 15px;
  }
 
@@ -40,7 +40,7 @@ body{
 }
 
 .img img{/* Imagem da matéria */
-  width: 50%;
+  width: 60%;
  } 
  .img figcaption{/* informe da foto */
   font-size: 14px;
@@ -50,13 +50,26 @@ body{
   line-height: 30px;
   font-size: 20px;
  }
- .materia iframe{
-  width: 80%;
-  height: 400px;
-  
+ .materia iframe{/* Vídeo do Youtube */
+  width: 720px;
+  height: 400px;  
   
  }
 
+.lista-links{    /* Container das "a ul li" */
+  padding: 0%;  
+}
+.lista-links a{  
+  color: black;
+  font-size: 19px;
+  
+}
+
+.lista-links ul{
+  padding-left: 0%;
+  list-style: none;
+  line-height: 30px;  
+}
  
 
  
