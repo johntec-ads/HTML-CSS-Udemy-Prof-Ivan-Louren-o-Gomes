@@ -1,5 +1,5 @@
-html,
-body {
+html,body {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 0;
@@ -15,7 +15,7 @@ body {
   background-color: rgb(0, 0, 0);
   color: white;
   height: 50px;
-  font-size: 15px;
+ 
 }
 
 .navigation ul {
@@ -31,7 +31,9 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   line-height: 50px;
-  color: #f27609;
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 
@@ -48,7 +50,7 @@ body {
 .capa div {
   display: inline-block;
   height: 650px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .capa h2 {
@@ -68,9 +70,20 @@ body {
 
 .textos {
   vertical-align: top;
-  width: 60%
+  width: 60%;
+  font-weight: 400;
 }
 
 .textos div {
-  margin-top: 100px;
+  margin-top: 150px;
+}
+
+.textos h1{
+  text-transform:uppercase;
+  line-height: 40px;
+}
+
+.textos h2{
+  font-weight: 100;
+  margin-top: -19px;
 }
