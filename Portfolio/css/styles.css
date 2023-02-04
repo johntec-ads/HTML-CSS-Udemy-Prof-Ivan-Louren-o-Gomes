@@ -88,7 +88,7 @@ body {
   margin-top: -19px;
 }
 
-/* Página 02 Currículo */
+/*------ Página 02 Currículo ------ */
 
 .main{
   /* Caso adicione valores diferentes,a ordem fica da seguinte forma:
@@ -99,7 +99,7 @@ body {
 
 }
 
-.main img{
+.cv-pick{
   float: left;
   width: 200px;
   margin-right: 20px;
@@ -142,4 +142,12 @@ body {
 
 .caminho li {
   display: inline-block;
+}
+
+/*------ Página 03 Contato ------ */
+
+
+.social-img{
+  width: 50px;
+  margin-right: 10px;
 }
