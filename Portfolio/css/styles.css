@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
@@ -90,16 +91,24 @@ body {
 
 /*------ Página 02 Currículo ------ */
 
-.main{
+.main {
   /* Caso adicione valores diferentes,a ordem fica da seguinte forma:
       Um valor , a execução fica em todas as direções ,top,right,left e botton.
       Dois valores ,a execução fica em top e bottom.
       Três valores ,a execução fica em top,right e botton. */
-  padding: 80px/*top*/ 180px/*left*/ 80px/*right*/ 100px/*botton */;  
+  padding: 80px
+    /*top*/
+    180px
+    /*left*/
+    80px
+    /*right*/
+    100px
+    /*botton */
+  ;
 
 }
 
-.cv-pick{
+.cv-pick {
   float: left;
   width: 200px;
   margin-right: 20px;
@@ -129,7 +138,8 @@ body {
   font-size: 18px;
   font-weight: 100;
   line-height: 24px;
-  text-align: justify;/* Alinhamento justificado
+  text-align: justify;
+  /* Alinhamento justificado
   com as bordas do texto alinhadas. */
 }
 
@@ -147,7 +157,21 @@ body {
 /*------ Página 03 Contato ------ */
 
 
-.social-img{
+.social-img {
   width: 50px;
   margin-right: 10px;
+}
+
+/* ----Página de Portfolio---- */
+
+.miniatura {
+  width: 320px;
+  height: 320px;
+  background-image: url("../img/ccb.jpg");
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  /*( background-repeat:no-repeat; ) O padrão é repeat , 
+  repetindo a imagem , no entanto ,com  o (no-repeat) esta execução é cancelada.  */
+  background-size: contain; /* Amplia a imagem , porém , pode danificar a mesma. */
 }
