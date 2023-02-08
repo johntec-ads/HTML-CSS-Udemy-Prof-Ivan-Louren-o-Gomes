@@ -173,5 +173,42 @@ body {
   margin-bottom: 15px;
   /*( background-repeat:no-repeat; ) O padrão é repeat , 
   repetindo a imagem , no entanto ,com  o (no-repeat) esta execução é cancelada.  */
-  background-size: contain; /* Amplia a imagem , porém , pode danificar a mesma. */
+  background-size: contain;
+  /* Amplia a imagem , porém , pode danificar a mesma. */
+  overflow: hidden;
+  /* A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, exibido com barras de rolagem ou se transborda do elemento.O padrão desta propriedade é Visible.
+  - hidden: O conteúdo é cortado e nenhuma barra de rolagem é exibida. */
+}
+.miniatura a {
+  text-decoration: none;
+}
+
+.blackbox {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  padding-top: 120px;
+}
+
+.blackbox:hover {
+  opacity: 0.8;
+}
+
+.blackbox {
+  text-align: center;
+}
+
+.blackbox h1 {
+  font-size: 16px;
+  color: #f27609;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.blackbox h2 {
+  text-transform: none;
+  font-weight: 100;
+  margin-top: 0;
+
 }
