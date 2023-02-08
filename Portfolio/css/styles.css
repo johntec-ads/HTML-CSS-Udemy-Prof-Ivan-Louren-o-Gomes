@@ -180,7 +180,7 @@ body {
   - hidden: O conteúdo é cortado e nenhuma barra de rolagem é exibida. */
 }
 .miniatura a {
-  text-decoration: none;
+  text-decoration: none;/* Cancela a linha azul do link */
 }
 
 .blackbox {
@@ -211,4 +211,12 @@ body {
   font-weight: 100;
   margin-top: 0;
 
+}
+
+/* ---webdesign-psp--- */
+
+.foto-trabalhos {
+  width:100%;  
+  margin-top: 10px;
+  margin-bottom:10px;
 }
