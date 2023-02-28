@@ -45,8 +45,9 @@ body {
 .navigation a:hover {/* (a:hover) Propriedade que muda a cor do link, ao contato do cursor */
   color:#f27609
 }
- 
-.navigation li.threeline-icon {/* Ocultando o icone de três linhas "menu" */
+
+ /* Ocultando o icone de três linhas "menu" */
+.navigation li.threeline-icon {
   display: none;
 }
 
@@ -165,6 +166,10 @@ body {
 
 .caminho li {
   display: inline-block;
+}
+
+.caminho a {
+  color: gray;
 }
 
 /*------ Página 03 Contato ------ */
