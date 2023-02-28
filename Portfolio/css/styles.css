@@ -34,7 +34,20 @@ body {
   line-height: 50px;
   color: white;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 18px; 
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover {/* (a:hover) Propriedade que muda a cor do link, ao contato do cursor */
+  color:#f27609
+}
+ 
+.navigation li.threeline-icon {/* Ocultando o icone de três linhas "menu" */
+  display: none;
 }
 
 
@@ -217,6 +230,6 @@ body {
 
 .foto-trabalhos {
   width:100%;  
-  margin-top: 10px;
   margin-bottom:10px;
+  margin-top: 10px;
 }
