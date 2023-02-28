@@ -34,7 +34,7 @@ body {
   line-height: 50px;
   color: white;
   font-weight: 100;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .navigation a {
@@ -42,11 +42,12 @@ body {
   text-decoration: none;
 }
 
-.navigation a:hover {/* (a:hover) Propriedade que muda a cor do link, ao contato do cursor */
-  color:#f27609
+.navigation a:hover {
+  /* (a:hover) Propriedade que muda a cor do link, ao contato do cursor */
+  color: #f27609
 }
 
- /* Ocultando o icone de três linhas "menu" */
+/* Ocultando o icone de três linhas "menu" */
 .navigation li.threeline-icon {
   display: none;
 }
@@ -73,20 +74,27 @@ body {
 }
 
 .imagem {
+  width: 40%;
   text-align: center;
-  width: 40%
+
+  animation-name: profile-capa;
+  animation-duration: 2s;
 }
 
 .imagem img {
-  margin-top: 100px;
   width: 300px;
   border-radius: 300px;
+  margin-top: 100px;
 }
 
 .textos {
   vertical-align: top;
   width: 59%;
   font-weight: 400;
+  
+  animation-name: titulo-capa;
+  animation-duration: 2s;
+  
 }
 
 .textos div {
@@ -180,6 +188,10 @@ body {
   margin-right: 10px;
 }
 
+.back-link {
+  color: #f27609;
+}
+
 /* ----Página de Portfolio---- */
 
 .miniatura {
@@ -197,8 +209,10 @@ body {
   /* A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, exibido com barras de rolagem ou se transborda do elemento.O padrão desta propriedade é Visible.
   - hidden: O conteúdo é cortado e nenhuma barra de rolagem é exibida. */
 }
+
 .miniatura a {
-  text-decoration: none;/* Cancela a linha azul do link */
+  text-decoration: none;
+  /* Cancela a linha azul do link */
 }
 
 .blackbox {
@@ -234,7 +248,36 @@ body {
 /* ---webdesign-psp--- */
 
 .foto-trabalhos {
-  width:100%;  
-  margin-bottom:10px;
+  width: 100%;
+  margin-bottom: 10px;
   margin-top: 10px;
+}
+
+/* Animações */
+
+@keyframes profile-capa {
+  0% {/* O 0% equivale ao início da animação */
+   opacity: 0; transform: translate(0px,20px);}
+
+  100% {/* O 100% equivale ao final da animação */
+    opacity: 1; transform: translate(0px,0px);
+}
+}
+
+@keyframes titulo-capa {
+  0% {/* O 0% equivale ao início da animação */
+   opacity: 0; transform: translate(0px,-20px);}
+
+  100% {/* O 100% equivale ao final da animação */
+    opacity: 1; transform: translate(0px,0px);
+}
+}
+
+@keyframes navegacao {
+  0% {/* O 0% equivale ao início da animação */
+   opacity: 0;}
+
+  100% {/* O 100% equivale ao final da animação */
+    opacity: 1;
+}
 }
