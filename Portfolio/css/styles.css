@@ -121,12 +121,17 @@ body {
       Um valor , a execução fica em todas as direções ,top,right,left e botton.
       Dois valores ,a execução fica em top e bottom.
       Três valores ,a execução fica em top,right e botton. */
-  padding: 80px/*top*/180px/*left*/80px/*right*/100px/*botton */
+  padding: 80px
+    /*top*/
+    180px
+    /*left*/
+    80px
+    /*right*/
+    100px
+    /*botton */
   ;
-
   animation-name: conteudo;
   animation-duration: 2s;
-
 }
 
 .cv-pick {
@@ -368,22 +373,43 @@ body {
     margin-top: 0;
   }
 
-  .main {   
-    padding: 10px 5% 40px 5%;      
+  .main {
+    padding: 10px 5% 40px 5%;
+    
   }
+  .main a {
+    overflow-wrap: break-word;
+    /* Defini se o navegador deve inserir 
+  quebras de linha em uma string inquebrável para evitar que o texto 
+  transborde sua caixa */
+  word-wrap: break-word;
+  }
+
   .main p {
     text-align: left;
     line-height: 30px;
   }
 
-  .caminho li{
+  .caminho li {
     font-size: 14px;
   }
 
   .cv-pick {
     float: none;
     max-width: 100%;
-   
+
+  }
+
+  .miniatura {
+    max-width: 100%;
+    /* A propriedade CSS max-width define a largura 
+    máxima de um elemento. Isso evita que o valor usado da propriedade
+     width se torne maior que o valor especificado por max-width. */
+     background-size: auto 100%;
+  }
+
+  .blackbox {
+    opacity: 0.8;
   }
 
 
